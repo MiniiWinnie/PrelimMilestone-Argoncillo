@@ -144,6 +144,7 @@
 
   searchInput.addEventListener("input", () => {
     currentPage = 1; 
+    renderGallery();
   });
 
   prevBtn.addEventListener("click", () => {
